@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  overflow: auto;
+  position: sticky;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1.5px solid rgba(0,0,0,.15);
+  transition: background 0.5s ease;
+  background-color: white;
+
+  width: 1060px;
+}
+
+.header-title {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-decoration: none;
+}
+
+.name {
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+.logo {
+  margin-left: 12px;
+  width: 48px;
+}
+
+.menu-action {
+  text-decoration: none;
+  color: black;
+}
