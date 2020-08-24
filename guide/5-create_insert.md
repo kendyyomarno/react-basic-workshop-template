@@ -1,5 +1,49 @@
 ## "Create" Feature Guide & Code Snippets
 
+### render method
+
+```
+render = () => {
+    return (
+      <div>
+        <h1>Create</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                Title
+              </td>
+              <td>
+                <input type = "text" value = "" required/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Author
+              </td>
+              <td>
+                <input type = "text" value = "" required/>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                Date
+              </td>
+              <td>
+                <input type = "text" value = "" required/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <input type = "submit" value = "submit"/>
+      </div>
+    )
+  }
+```
+
 ### prepare API
 
 ```
@@ -98,4 +142,4 @@ resetStates = () => {
 <div>
   <a href = { CREATE_PATH } className = 'menu-action'>Create</a>
 </div>
-``1
+```
