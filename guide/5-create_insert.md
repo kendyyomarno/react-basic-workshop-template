@@ -91,3 +91,11 @@ resetStates = () => {
   })
 }
 ```
+
+### add routes in header
+
+```
+<div>
+  <a href = { CREATE_PATH } className = 'menu-action'>Create</a>
+</div>
+``1
