@@ -61,8 +61,6 @@ img {
 import Card from '../../components/Card'
 ```
 
-### filling in the card component, passing data through props
-
 ```
 <Card
   key = "title"
