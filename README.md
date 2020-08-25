@@ -8,6 +8,9 @@
 ### starting the app
 `yarn start` or `npm run start`
 
+### browse the app
+go to `localhost:3000`
+
 ## API List
 [API list docs](api-list.md)
 
