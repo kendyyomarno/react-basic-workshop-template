@@ -12,7 +12,7 @@
 [API list docs](api-list.md)
 
 
-## Guide & Code Snippets
+## Guide & Code Snippets (to help during workshop)
 
 ### Routing
 [Routing Guide](guide/1-routing.md)
